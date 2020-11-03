@@ -1,0 +1,44 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {font-size: 25px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+
+
+}
+body {
+background: rgb(251,252,252);
+background: radial-gradient(circle, rgba(251,252,252,1) 0%, rgba(236,255,91,1) 0%, rgba(255,58,85,1) 93%, rgba(255,4,55,1) 100%);
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 2em;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	width:25%;
+	padding: 0.25em;
+}
+
+.neon {
+    color: ##ff4d4d;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
